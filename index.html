@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Fitness gym</title>
+    <style>
+        
+        
+        body{
+            
+            background-image: url(pexels-leon-ardho-2379613.jpg);
+            color:white;
+            font-family: 'Baloo Bhai', cursive;
+        }
+        body img{
+            width: 100%;
+            height: auto;
+        }
+        .left{
+            /* border: 4px solid red; */
+            display: inline-block;
+            position: absolute;
+            top:10px;
+            left:30px
+            
+        }
+        .left img{
+            width: 81px;
+            margin: -4px 13px;
+        }
+        .left div{
+            font-size: 25px;
+            line-height: 0px;
+            font-family: 'Baloo Bhai', cursive;
+            color: #89d7d0;
+        }
+        
+        
+        .centre{
+            /* border: 4px solid yellow; */
+            display: block;
+            width: 52%;
+            margin: 20px auto;
+            padding :5px;
+            
+
+        }
+        .right{
+            /* border: 4px solid green; */
+            display: inline-block;
+            position: absolute;
+            top:20px;
+            right:34px
+
+        }
+        .navbar{
+            display: inline-block;
+            
+
+        }
+        .navbar li {
+            display: inline-block;
+            list-style: none ;
+            font-size: 25px;
+            
+            
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 24px 24px;
+        }
+        .navbar li a:hover{
+            color:grey;
+            text-decoration: underline;
+        }
+        .btn{
+            margin: 0px 8px;
+            padding: 5px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            font-family: 'Baloo Bhai', cursive;
+            width: 98px;
+
+
+
+        }
+        .btn:hover{
+            
+            background-color: rgb(31, 29, 29);
+        }
+        .container
+        {
+            /* border: 2px solid rgb(255, 255, 255); */
+            margin: 161px 57px;
+            padding: 40px;
+            border-radius: 20px;
+            width: 40%;
+        }
+        .from-group input{
+            text-align: center;
+            display: block;
+            padding: 6px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 5px  auto;
+            width: 56%;
+
+        }.container h2{
+            text-align: center;
+            font-size: 40px;
+
+        }
+        .container button{
+            display: block;
+            margin: 1px 309px;
+            width: 17%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <Header>
+        <div class="left">
+            <img src="gym.png" alt="">
+            <div>Fitness Gym</div>
+        </div>
+        <div class="centre">
+            <nav class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness score</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </Header>
+    <div class="container">
+        <h2>Join The Best Gym in Gorakhpur</h2> 
+        <form action="action.php">
+            <div class="from-group">
+               <input type="text" placeholder="enter your Name">
+            </div>
+            <div class="from-group">
+                <input type="text" placeholder="enter your Age">
+            </div>
+            <div class="from-group">
+                 <input type="text" placeholder="enter your Gender">
+            </div>
+            <div class="from-group">
+                <input type="text" placeholder="enter your Locality">
+            </div>
+            <button class="btn" >
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+</html>
